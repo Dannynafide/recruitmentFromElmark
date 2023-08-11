@@ -112,13 +112,13 @@ function Home() {
         <div>
           <Checkbox
             name="available"
-            label="Pokaz dostępne"
+            label="Show available"
             value={filter.available}
             onChange={handleAvailableChange}
           />
           <Checkbox
             name="unavailable"
-            label="Pokaz niedostępne"
+            label="Show unavailable"
             value={filter.unavailable}
             onChange={handleAvailableChange}
           />
