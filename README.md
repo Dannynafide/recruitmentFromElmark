@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Junior Developer Recruitment Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Task Overview:**
 
-## Available Scripts
+In this recruitment challenge, we are seeking a junior developer who can demonstrate proficiency in HTML, CSS, JavaScript, React, API integration, and version control using Git. The challenge consists of creating a simple product listing web application that fetches and displays product information from a JSON API.
 
-In the project directory, you can run:
+**Task Duration:**
+Up to 3 hours
 
-### `npm start`
+**Technologies and Skills Tested:**
+- HTML
+- CSS
+- JavaScript
+- React
+- API Connection
+- Git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Task Description:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You are required to create a basic web application that displays a list of products fetched from a JSON API. The application should have a responsive design and should be built using React components.
 
-### `npm test`
+**Task Steps:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the starter repository from the provided Git repository [URL](https://github.com/ElmarkTW/recruitment-task.git). 
 
-### `npm run build`
+2. Prepare API based on Free API Editor [mocki.io](https://mocki.io/) from project source file /api/products.json
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Set up a new React application within the cloned repository.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Create a component to fetch data from self prepared JSON API.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Display the fetched product data in a visually appealing manner. Each product should be displayed as a card containing the following information:
+   - Product Name
+   - Description
+   - Manufacturer
+   - Availability (In Stock/Out of Stock) - if attribute "is_salable" = 0 don't display product.
+   - Price - net / gross (calculated based on tax and api net price) - with special display information and price calculation for promotion if applicable (promotional discount applies to the net price)
+   - New product notification if applicable
 
-### `npm run eject`
+5. Implement a basic filtering mechanism that allows users to filter products based on their availability (In Stock/Out of Stock).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. Apply basic styling using CSS to enhance the visual appeal of the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+7. Ensure the application is responsive and provides a seamless user experience on both desktop and mobile devices.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+8. Initialize a Git repository for version control and commit your changes regularly.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+9. Push your completed solution to your GitHub repository and share the repository URL with us.
 
-## Learn More
+**Additional Instructions:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Attributes "tax" and "promotion_discount" are expressed as a percentage.
+- Use modern JavaScript ES6+ syntax.
+- Focus on writing clean, well-organized, and maintainable code.
+- You are allowed to use third-party libraries if necessary (e.g., Axios for API requests).
+- The design and styling can be minimal but should be presentable.
+- Feel free to add any extra features or improvements beyond the basic requirements if time allows.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Evaluation Criteria:**
 
-### Code Splitting
+You will be evaluated based on the following criteria:
+- Code quality and organization
+- Correct implementation of React components and state management
+- Accurate fetching and displaying of product data from the JSON API
+- Responsive design and user experience
+- Proper use of Git for version control
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Submission:**
 
-### Analyzing the Bundle Size
+Please submit your solution by sharing the URL of your Git repository containing the completed challenge. Include a README file with any necessary setup instructions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note:**
+If you have any questions or need clarification during the challenge, feel free to contact us via email. Good luck, and we look forward to reviewing your submission!
